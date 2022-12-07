@@ -5,13 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OpenPort"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Open Port" Height="500" Width="500">
     <Grid>
-        <Label Margin="50,20,0,0">Mysql</Label>
-        <Button x:Name="MySql_button" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,50,0,0" Click="MySql_button_Click">start</Button>
-        <Label Margin="134,20,-84,0" Content="PHP"/>
-        <Button x:Name="php_button" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="126,50,0,0" Click="MySql_button_Click" Content="start"/>
-        <Label Margin="200,20,-150,0" Content="Apache"/>
-        <Button x:Name="apache_button" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,50,0,0" Click="apache_button_Click" Content="start"/>
+        <Label Width="auto" Height="auto" Margin="44,17,6,3">Mysql</Label>
+        <Button x:Name="MySql_button" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="44,47,0,0" Click="MySql_button_Click">start</Button>
+        <Label Margin="123,17,-73,3" Content="PHP"/>
+        <Button x:Name="php_button" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="114,47,0,0" Click="MySql_button_Click" Content="start"/>
+        <Label Margin="189,17,-139,3" Content="Apache"/>
+        <Button x:Name="apache_button" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="184,47,0,0" Click="apache_button_Click" Content="start"/>
+        <Label Margin="254,17,-204,3" Content="Mercury"/>
+        <Button x:Name="mercury_button" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="254,47,0,0" Click="apache_button_Click" Content="start"/>
+        <Label Margin="324,17,-274,3" Content="FileZila"/>
+        <Button x:Name="fileZilla_button" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,47,0,0" Click="apache_button_Click" Content="start"/>
+        <Label Margin="394,17,-344,3" Content="tomCat"/>
+        <Button x:Name="tomcat_button" Height="30" VerticalAlignment="Top" Margin="394,47,0,0" Click="apache_button_Click" Content="start" HorizontalAlignment="Left" Width="50"/>
     </Grid>
 </Window>
